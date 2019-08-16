@@ -2,33 +2,47 @@
 	box-sizing: border-box;
 }
 
-.container {
-	
-
-	color: black;
-	background-color: red;
-	margin-left: 20px;
-	
+h1 {
+    text-align: center;
+    color: black;
 }
+
 
 .row {
 	width: 100%;
 }
 
-p {
-	
-	margin-left: auto;
-	margin-right: auto;
-	color: white;
-	background-color: red;
+section {
+    border: 1px solid black;
+    background-color: #b5c4d2;
+    margin: 4px;
 }
+
+h2 {
+    float: right;
+    background-color: green;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin: 0;
+    width: 150px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    height: 45px;
+    padding-top: 9px;
+}
+
+p {
+	padding: 40px 15px 15px 15px;
+}
+
+
 
 
 @media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
   .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -73,7 +87,6 @@ p {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
   .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid black;
   }
   .col-md-1 {
     width: 8.33%;
@@ -117,7 +130,6 @@ p {
 	.col-sm-1, .com-sm-2, .com-sm-3, .com-sm-4, .com-sm-5, .com-sm-6, .com-sm-7,
 	.com-sm-8, .com-sm-9, .com-sm-10, .com-sm-11, .com-sm-12 {
 		float: left;
-		border: 1px solid black;
 	}
 
   .col-sm-1 {
